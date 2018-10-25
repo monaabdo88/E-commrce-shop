@@ -1,11 +1,11 @@
 <?php
 session_start();
 if(isset($_SESSION['username'])){
-    header('Location: dashboared.php');
+    header('Location: dashboard.php');
 }
+$noNavbar = '';
+$pageTitle = 'Login';
 include "init.php";
-include $tpl.'header.php';
-include "includes/languages/english.php";
 ?>
     <div class="container login-page">
         <h1 class="text-center login-head">
