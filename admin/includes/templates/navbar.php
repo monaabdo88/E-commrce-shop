@@ -15,7 +15,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 <li class="active"><a href="dashboard.php"><?=lang('admin_panel')?> </a></li>
-                <li><a href="#"><?=lang('cats')?></a></li>
+                <li><a href="categories.php"><?=lang('cats')?></a></li>
                 <li><a href="#"><?=lang('items')?></a></li>
                 <li><a href="users.php"><?=lang('users')?></a></li>
                 <li><a href="#"><?=lang('statistic')?></a></li>

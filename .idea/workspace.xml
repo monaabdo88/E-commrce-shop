@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7371eb1-8489-4ce1-a914-8b683d6d7100" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/includes/functions/functions.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/includes/templates/navbar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/logout.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/page.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/users.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/categories.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/uploads/avatar/5001-10868072_10152931745234662_6443310087692187913_n.jpg" afterPath="$PROJECT_DIR$/admin/uploads/avatar/5001-10868072_10152931745234662_6443310087692187913_n.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/dashboard.php" afterPath="$PROJECT_DIR$/admin/dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/languages/arabic.php" afterPath="$PROJECT_DIR$/admin/includes/languages/arabic.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/languages/english.php" afterPath="$PROJECT_DIR$/admin/includes/languages/english.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/templates/header.php" afterPath="$PROJECT_DIR$/admin/includes/templates/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/index.php" afterPath="$PROJECT_DIR$/admin/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/init.php" afterPath="$PROJECT_DIR$/admin/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/functions/functions.php" afterPath="$PROJECT_DIR$/admin/includes/functions/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/includes/templates/navbar.php" afterPath="$PROJECT_DIR$/admin/includes/templates/navbar.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/layout/css/front.css" afterPath="$PROJECT_DIR$/admin/layout/css/front.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="users.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="users.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/users.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="292" column="43" lean-forward="false" selection-start-line="292" selection-start-column="43" selection-end-line="292" selection-end-column="43" />
+            <state relative-caret-position="0">
+              <caret line="8" column="19" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="19" />
               <folding>
                 <marker date="1540455625772" expanded="true" signature="421:487" ph="SELECT * FRO... users" />
                 <marker date="1540455625772" expanded="true" signature="1935:2204" ph="..." />
@@ -75,13 +69,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/includes/functions/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+            <state relative-caret-position="187">
+              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
               <folding>
-                <marker date="1540454339998" expanded="true" signature="1481:1524" ph="SELECT ${$se... ${$from}" />
+                <marker date="1540569512130" expanded="true" signature="223:242" ph="SELECT ${$fi... ${$tbl}" />
+                <marker date="1540569512130" expanded="true" signature="223:247" ph="SELECT ${$fi... ${$tbl}" />
+                <marker date="1540569512130" expanded="true" signature="223:254" ph="SELECT ${$fi... ${$tbl}" />
+                <marker date="1540569512130" expanded="true" signature="223:268" ph="SELECT ${$fi... ${$tbl}" />
+                <marker date="1540569512130" expanded="true" signature="223:269" ph="SELECT ${$fi... ${$tbl}" />
+                <marker date="1540569512130" expanded="true" signature="223:280" ph="SELECT ${$fi... ${$tbl}" />
+                <marker date="1540569512130" expanded="true" signature="1842:1885" ph="SELECT ${$se... ${$from}" />
+                <marker date="1540569512130" expanded="true" signature="2224:2249" ph="SELECT COUNT... ${$tbl}" />
+                <marker date="1540569512130" expanded="true" signature="2224:2253" ph="SELECT COUNT... $tbl" />
+                <marker date="1540569512130" expanded="true" signature="2224:2277" ph="SELECT COUNT... ${$tbl}" />
+                <marker date="1540569512130" expanded="true" signature="2314:2567" ph="/* ** Get La... " />
+                <marker date="1540569512130" expanded="true" signature="2664:2711" ph="SELECT ${$se... ${$tbl}" />
+                <marker date="1540569512130" expanded="true" signature="2664:2717" ph="SELECT $sele... $tbl" />
+                <marker date="1540569512130" expanded="true" signature="2664:2719" ph="SELECT ${$se... ${$tbl}" />
               </folding>
             </state>
           </provider>
@@ -94,9 +101,12 @@
       <find>.login-page</find>
       <find>members</find>
       <find>uploads/</find>
+      <find>exp</find>
+      <find>members.php</find>
     </findStrings>
     <replaceStrings>
       <replace>users</replace>
+      <replace>users.php</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -115,12 +125,13 @@
         <option value="$PROJECT_DIR$/admin/init.php" />
         <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/admin/includes/templates/header.php" />
-        <option value="$PROJECT_DIR$/admin/dashboard.php" />
         <option value="$PROJECT_DIR$/admin/page.php" />
+        <option value="$PROJECT_DIR$/admin/users.php" />
+        <option value="$PROJECT_DIR$/admin/layout/css/front.css" />
+        <option value="$PROJECT_DIR$/admin/dashboard.php" />
         <option value="$PROJECT_DIR$/admin/includes/templates/navbar.php" />
         <option value="$PROJECT_DIR$/admin/includes/functions/functions.php" />
-        <option value="$PROJECT_DIR$/admin/layout/css/front.css" />
-        <option value="$PROJECT_DIR$/admin/users.php" />
+        <option value="$PROJECT_DIR$/admin/categories.php" />
       </list>
     </option>
   </component>
@@ -155,8 +166,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,33 +185,6 @@
               <item name="ecommrce" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ecommrce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecommrce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="includes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="functions" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ecommrce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecommrce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ecommrce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecommrce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="ecommrce" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ecommrce" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -236,18 +220,19 @@
       <updated>1540192926912</updated>
       <workItem from="1540192928824" duration="27935000" />
       <workItem from="1540369316418" duration="9715000" />
-      <workItem from="1540449376228" duration="5659000" />
+      <workItem from="1540449376228" duration="13582000" />
+      <workItem from="1540565486771" duration="3941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43309000" />
+    <option name="totallyTimeSpent" value="55173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25755286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2613293" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -349,7 +334,20 @@
         <state relative-caret-position="595">
           <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
           <folding>
-            <marker date="1540454339998" expanded="true" signature="1481:1524" ph="SELECT ${$se... ${$from}" />
+            <marker date="1540569512130" expanded="true" signature="223:242" ph="SELECT ${$fi... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="223:247" ph="SELECT ${$fi... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="223:254" ph="SELECT ${$fi... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="223:268" ph="SELECT ${$fi... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="223:269" ph="SELECT ${$fi... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="223:280" ph="SELECT ${$fi... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="1842:1885" ph="SELECT ${$se... ${$from}" />
+            <marker date="1540569512130" expanded="true" signature="2224:2249" ph="SELECT COUNT... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="2224:2253" ph="SELECT COUNT... $tbl" />
+            <marker date="1540569512130" expanded="true" signature="2224:2277" ph="SELECT COUNT... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="2314:2567" ph="/* ** Get La... " />
+            <marker date="1540569512130" expanded="true" signature="2664:2711" ph="SELECT ${$se... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="2664:2717" ph="SELECT $sele... $tbl" />
+            <marker date="1540569512130" expanded="true" signature="2664:2719" ph="SELECT ${$se... ${$tbl}" />
           </folding>
         </state>
       </provider>
@@ -366,7 +364,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1540476093116" expanded="true" signature="6505:6803" ph="SELECT comme... comments" />
+            <marker date="1540476093116" expanded="true" signature="7156:7285" ph="..." />
+            <marker date="1540476093116" expanded="true" signature="7182:7285" ph="..." />
+            <marker date="1540476093116" expanded="true" signature="7233:7278" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -430,7 +433,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1540476093116" expanded="true" signature="6505:6803" ph="SELECT comme... comments" />
+            <marker date="1540476093116" expanded="true" signature="7156:7285" ph="..." />
+            <marker date="1540476093116" expanded="true" signature="7182:7285" ph="..." />
+            <marker date="1540476093116" expanded="true" signature="7233:7278" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -446,6 +454,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -475,6 +484,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="46" lean-forward="false" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -507,52 +517,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/templates/navbar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/functions/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding>
-            <marker date="1540454339998" expanded="true" signature="1481:1524" ph="SELECT ${$se... ${$from}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/layout/css/front.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/layout/js/front.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="51">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="292" column="43" lean-forward="false" selection-start-line="292" selection-start-column="43" selection-end-line="292" selection-end-column="43" />
+        <state relative-caret-position="0">
+          <caret line="8" column="19" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="8" selection-end-column="19" />
           <folding>
             <marker date="1540455625772" expanded="true" signature="421:487" ph="SELECT * FRO... users" />
             <marker date="1540455625772" expanded="true" signature="1935:2204" ph="..." />
@@ -593,6 +568,75 @@
             <marker date="1540455625772" expanded="true" signature="19094:19319" ph="..." />
             <marker date="1540455625772" expanded="true" signature="19170:19264" ph="..." />
             <marker date="1540455625772" expanded="true" signature="19219:19226" ph="×" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/layout/js/front.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-847">
+          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <element signature="e#7#127#0#PHP" expanded="true" />
+            <marker date="1540572057877" expanded="true" signature="585:645" ph="SELECT * FRO... categories" />
+            <marker date="1540572057877" expanded="true" signature="3581:3799" ph="..." />
+            <marker date="1540572057877" expanded="true" signature="4478:4536" ph="..." />
+            <marker date="1540572057877" expanded="true" signature="10593:10775" ph="INSERT INTO categories" />
+            <marker date="1540572057877" expanded="true" signature="11900:11937" ph="SELECT * FRO... categories" />
+            <marker date="1540572057877" expanded="true" signature="19174:19437" ph="UPDATE categ... " />
+            <marker date="1540572057877" expanded="true" signature="20447:20485" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/templates/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <marker date="1540476093116" expanded="true" signature="6505:6803" ph="SELECT comme... comments" />
+            <marker date="1540476093116" expanded="true" signature="7156:7285" ph="..." />
+            <marker date="1540476093116" expanded="true" signature="7182:7285" ph="..." />
+            <marker date="1540476093116" expanded="true" signature="7233:7278" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/functions/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <marker date="1540569512130" expanded="true" signature="223:242" ph="SELECT ${$fi... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="223:247" ph="SELECT ${$fi... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="223:254" ph="SELECT ${$fi... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="223:268" ph="SELECT ${$fi... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="223:269" ph="SELECT ${$fi... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="223:280" ph="SELECT ${$fi... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="1842:1885" ph="SELECT ${$se... ${$from}" />
+            <marker date="1540569512130" expanded="true" signature="2224:2249" ph="SELECT COUNT... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="2224:2253" ph="SELECT COUNT... $tbl" />
+            <marker date="1540569512130" expanded="true" signature="2224:2277" ph="SELECT COUNT... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="2314:2567" ph="/* ** Get La... " />
+            <marker date="1540569512130" expanded="true" signature="2664:2711" ph="SELECT ${$se... ${$tbl}" />
+            <marker date="1540569512130" expanded="true" signature="2664:2717" ph="SELECT $sele... $tbl" />
+            <marker date="1540569512130" expanded="true" signature="2664:2719" ph="SELECT ${$se... ${$tbl}" />
           </folding>
         </state>
       </provider>

@@ -1,4 +1,16 @@
 <?php
+
+/*
+** Get All Function v2.0
+** Function To Get All Records From Any Database Table
+*/
+function getAllFrom($field,$tbl,$where = NULL,$and=NULL,$orderField,$order = 'DESC'){
+    global $con;
+    $stmt = $con->prepare("SELECT $field FROM $tbl $where $and ORDER BY $orderField $order");
+    $stmt->execute();
+    $getAll = $stmt->fetchAll();
+    return $getAll;
+}
 /*
 	** Title Function v1.0
 	** Title Function That Echo The Page Title In Case The Page
@@ -52,4 +64,31 @@ function checkItem($select,$from,$value){
     $count = $statement->rowCount();
 
     return $count;
+}
+/*
+	** Count Number Of Items Function v1.0
+	** Function To Count Number Of Items Rows
+	** $item = The Item To Count
+	** $table = The Table To Choose From
+*/
+function countItems($item,$tbl){
+    global $con;
+    $stmt = $con->prepare("SELECT COUNT($item) FROM $tbl");
+    $stmt->execute();
+    return $stmt->fetchColumn();
+}
+/*
+	** Get Latest Records Function v1.0
+	** Function To Get Latest Items From Database [ Users, Items, Comments ]
+	** $select = Field To Select
+	** $table = The Table To Choose From
+	** $order = The Desc Ordering
+	** $limit = Number Of Records To Get
+*/
+function getLatest($select,$tbl,$order,$limit = 5){
+    global $con;
+    $stmt = $con->prepare("SELECT $select FROM $tbl ORDER BY $order LIMIT $limit");
+    $stmt->execute();
+    $row = $stmt->fetchAll();
+    return $row;
 }
