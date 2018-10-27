@@ -1,6 +1,17 @@
 <?php
 
-	include 'connect.php';
+	// Error Reporting
+
+	ini_set('display_errors', 'On');
+	error_reporting(E_ALL);
+
+	include 'admin/connect.php';
+
+	$sessionUser = '';
+	
+	if (isset($_SESSION['user'])) {
+		$sessionUser = $_SESSION['user'];
+	}
 
 	// Routes
 
@@ -15,10 +26,6 @@
 	include $func . 'functions.php';
 	include $lang . 'english.php';
 	include $tpl . 'header.php';
-
-	// Include Navbar On All Pages Expect The One With $noNavbar Vairable
-
-	if (!isset($noNavbar)) { include $tpl . 'navbar.php'; }
 	
 
 	

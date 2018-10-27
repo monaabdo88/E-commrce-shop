@@ -1,22 +1,28 @@
 <?php
-$do = (isset($_GET['do'])) ? $_GET['do'] : 'Manage';
-// If The Page Is Main Page
 
-if ($do == 'Manage') {
+	/*
+		Categories => [ Manage | Edit | Update | Add | Insert | Delete | Stats ]
+	*/
 
-    echo 'Welcome You Are In Manage Category Page';
-    echo '<a href="?do=Insert">Add New Category +</a>';
+	$do = isset($_GET['do']) ? $_GET['do'] : 'Manage';
 
-} elseif ($do == 'Add') {
+	// If The Page Is Main Page
 
-    echo 'Welcome You Are In Add Category Page';
+	if ($do == 'Manage') {
 
-} elseif ($do == 'Insert') {
+		echo 'Welcome You Are In Manage Category Page';
+		echo '<a href="?do=Insert">Add New Category +</a>';
 
-    echo 'Welcome You Are In Insert Category Page';
+	} elseif ($do == 'Add') {
 
-} else {
+		echo 'Welcome You Are In Add Category Page';
 
-    echo 'Error There\'s No Page With This Name';
+	} elseif ($do == 'Insert') {
 
-}
+		echo 'Welcome You Are In Insert Category Page';
+
+	} else {
+
+		echo 'Error There\'s No Page With This Name';
+
+	}
